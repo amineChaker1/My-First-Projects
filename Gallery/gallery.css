@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.gallery{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 5% auto 0;
+    box-sizing: border-box;
+}
+.imageBox{
+    margin: 0 1%;
+    flex-grow: 1;
+    flex-basis: 0;
+    transition: 0.5s;
+}
+.imageBox img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+.imageBox:hover{
+    flex-basis: 50%;
+}
