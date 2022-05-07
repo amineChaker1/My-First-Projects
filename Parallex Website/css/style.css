@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+header {
+  background-image: url(../img/header.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+}
+header .text-center {
+  color: #404145;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  margin: auto;
+  width: 15em;
+  background-color: #130f08;
+  border-radius: 5px;
+}
+#sec2 {
+  background-image: url(../img/back\ -\ Raccourci.lnk);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+}
+#sec3 {
+  background-image: url(../img/foot.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+}
